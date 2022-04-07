@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>776</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QCalendarWidget" name="calendarWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>200</y>
+     <width>421</width>
+     <height>291</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>771</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+background:&quot;#75b3ff&quot;;
+color:&quot;white&quot;;
+border:2px solid white;
+ border-radius: 25px;
+font: 60px &quot;Segoe UI Variable Text Semibold&quot;;
+padding:120px;
+</string>
+   </property>
+   <property name="text">
+    <string>Daily Task Planner</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="newTask">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>170</y>
+     <width>231</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+font: 11px &quot;Segoe UI Variable Text Semibold&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addBtn">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>170</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background:&quot;#75b3ff&quot;;
+color:&quot;white&quot;;
+border:2px solid white;
+ border-radius: 10px;
+font: 11px &quot;Segoe UI Variable Text Semibold&quot;;
+padding:4px;
+
+}
+QPushButton:hover {
+background-color:&quot;#8258ff&quot;;
+border-raduis:10px
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Add New</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>201</y>
+     <width>331</width>
+     <height>261</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="saveBtn">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>470</y>
+     <width>121</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background:&quot;#75b3ff&quot;;
+color:&quot;white&quot;;
+border:2px solid white;
+ border-radius: 10px;
+font: 11px &quot;Segoe UI Variable Text Semibold&quot;;
+padding:4px;
+
+}
+QPushButton:hover {
+background-color:&quot;#8258ff&quot;;
+border-raduis:10px
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Save Changes</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
